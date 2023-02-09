@@ -1,0 +1,89 @@
+.detailetitle {
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+    height: 9rem;
+    align-items: center;
+    
+}
+.tabbarcartspan{
+    font-size: 1.5rem;
+}
+.tabbarcartspan svg{
+    font-size: 2.3rem;
+}
+.detailcollect {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+.detailcollect svg{
+    font-size: 2rem;
+}
+.detititle{
+    font-size: 1.5rem;
+}
+.detailtitlecontext {
+    border-right: 1px solid;
+    margin:0.4rem 1rem;
+    padding-right: 0.4rem;
+}
+
+.detailprice {
+    display: block;
+    font-size: 2rem;
+    margin-bottom: 0.4rem;
+}
+.detailhr{
+    width: 100%;
+    height: 0.4rem;
+    background-color: #f5f0f0;
+    margin-top: 0.1rem;
+    margin-bottom: 1rem;
+}
+.textdetails{
+  font-size: 1.4rem;
+  margin: 0.4rem ;
+  margin-left: 0.7rem;
+
+}
+
+.productpricespan{
+    font-size: 2rem;
+}
+.detailstabBar{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.producttitlespan{
+    width: 20rem;
+}
+.tabbarcart{
+    text-align: center;
+}
+.addcart{
+    background-color: #ffeb3b;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 4.5rem;
+}
+.shoptabbarspan{
+    font-size: 1.5rem;
+}
+.shoptabbar{
+    width: 100%;
+    text-align: center;
+    line-height: 4.5rem;
+}

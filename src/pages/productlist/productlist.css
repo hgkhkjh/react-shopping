@@ -1,0 +1,30 @@
+.product{
+    grid-template-columns: 1fr 2fr;
+    padding:0.5rem;
+}
+.producttitle{
+    padding: 0.5rem;
+    font-size: 0.9rem;
+}
+.productdes{
+    margin-top: 3rem;
+}
+.productprice{
+    line-height: 2.1rem;
+    margin:0.5rem;
+    font-size: 0.8rem;
+}
+.producticon img{
+    width: auto !important;
+}
+.producttitlespan{
+    
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.detailintroduce{
+    margin-top: 0.7rem;
+}
+.producttitlespan{
+    font-size: 1.5rem;
+}

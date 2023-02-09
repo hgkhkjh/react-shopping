@@ -1,0 +1,27 @@
+.homenavcontainer {
+  display: flex;
+}
+.homenavcontainer div{
+  text-align: center;
+}
+.floorcontainer {
+  margin-left: 0.1rem;
+}
+
+.lastfourcontainer {
+  display: flex;
+  /* height: 100%; */
+  align-content: flex-end;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.hamenav{
+  width: 8rem;
+  height: 8rem;
+}
+
+.firstfloor {
+  float: left;
+  height: 80%;
+  margin: "0.4rem 0rem"}

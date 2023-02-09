@@ -1,0 +1,54 @@
+.avacontainer {
+    width: 100%;
+    height: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.avacover {
+    position: fixed;
+    filter: blur(10px);
+    width: 100%;
+    height: 13rem;
+}
+.avaimg{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50px;
+}
+
+.minecontext{
+    text-align: center;
+    margin-top: 2rem;
+}
+.minecontext ul {
+    display: inline-block;
+    width: 90%;
+    height: 100%;
+    box-shadow: 6px 5px 9px 0px #bebdbd;
+    list-style: none;
+}
+
+.minecontext li {
+    height: 6rem;
+    border-bottom: 1px solid #e9e8e8;
+    line-height: 6rem;
+    font-size: 1.5rem;
+}
+.minecontext li:last-child{
+    border-bottom: none
+
+}
+.minecontext input {
+    margin-left: 0.3rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: none;
+    background-color: #5f9ea000;
+}
+.avacontainer p {
+     z-index: 11;
+     font-size: 2rem;
+}

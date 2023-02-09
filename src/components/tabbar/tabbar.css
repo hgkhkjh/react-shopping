@@ -1,0 +1,30 @@
+.tabbar {
+    width: 100%;
+    text-align: center;
+    line-height: 5rem;
+    height: 5rem;
+}
+
+.back {
+    font-size: 3rem;
+    float: left;
+    padding-left: 0.5rem;
+    line-height: 5rem;
+}
+
+.tabbartitle {
+    font-size: 2.5rem;
+}
+.listtype{
+    position: relative;
+    top: -4.3rem;
+    right: 0.4rem;
+    float: right;
+    font-size: 3.5rem;
+}
+.tabbarcontainer{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}

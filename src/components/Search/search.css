@@ -1,0 +1,22 @@
+.searchcontainer{
+    height: 5rem;
+    margin-top: 5rem;
+}
+.searchinput{
+    width: 90%;
+    height: 85%;
+    border: none;
+    border-radius: 43px;
+    margin: 0.2rem;
+    padding-left: 3.5rem;
+    font-size: 2rem;
+}
+.searchicon{
+    FONT-WEIGHT: 100;
+    color: #b5b2b2;
+    position: absolute;
+    left: 1rem;
+    top: 6rem;
+    font-size: 2.5rem;
+}
+input:focus { outline: none; } 
