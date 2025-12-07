@@ -96,7 +96,7 @@ export default function Mine() {
       </div>
       <div className='minecontext' style={{ color: globalcolor }}>
         <ul >
-          <li onClick={() => { upcollect() }} >我的收藏</li>
+          <li onClick={() => { upcollect() }} >我的收藏1</li>
           <li>改变主题颜色
             <input type="color" value={globalcolor} onChange={(e) => colorinoutcag(e)}></input>
           </li>
