@@ -100,7 +100,7 @@ export default function Mine() {
           <li>改变主题颜色
             <input type="color" value={globalcolor} onChange={(e) => colorinoutcag(e)}></input>
           </li>
-          <li onClick={() => { contact() }}  >联系我们1</li>
+          <li onClick={() => { contact() }}  >联系我们</li>
           <li>关于我们</li>
           <li onClick={()=>logout()}>退出登录</li>
         </ul>
